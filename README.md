@@ -15,7 +15,7 @@ As a beginner in the field, I've included various artifacts from my training cou
 ### 1. Checklists
 
 #### 1.1.	Web Application Testing 
-- Checklists for the learn.epam.com application + smoke scope and regression scope indication (testing courses) [LINK](Test Documentation/Checklists/Web_app/Checklists for learn.epam.com _STA course.xlsx)
+- Checklists for the learn.epam.com application + smoke scope and regression scope indication (testing courses) [LINK](Test Documentation/Checklists/Web_app/Checklists for learn.epam.com _STA course.htm)
 
 
 ### 2.	Test cases
