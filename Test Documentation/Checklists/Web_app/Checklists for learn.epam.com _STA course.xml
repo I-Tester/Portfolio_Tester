@@ -1,0 +1,1879 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>L P</Author>
+  <LastAuthor>L P</LastAuthor>
+  <Created>2023-03-18T11:01:39Z</Created>
+  <LastSaved>2024-01-03T09:12:29Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>21096</WindowHeight>
+  <WindowWidth>32767</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ActiveSheet>1</ActiveSheet>
+  <FirstVisibleSheet>1</FirstVisibleSheet>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s16" ss:Name="Hyperlink">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#0563C1"
+    ss:Underline="Single"/>
+  </Style>
+  <Style ss:ID="m1882302008636">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="m1882302005928">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="m1882302005948">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:CharSet="1" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="m1882302005968">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="m1882302005988">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="m1882302006008">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="m1882302006028">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="m1882302006048">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="m1882302006068">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="m1882302006088">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:CharSet="1" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="m1882302006108">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:CharSet="1" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="m1882302006128">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:CharSet="1" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="m1882302006148">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="m1882302006168">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="m1882302006188">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:CharSet="1" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s17">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#A9D08E" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s18">
+   <Alignment ss:Vertical="Center"/>
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s19">
+   <Alignment ss:Vertical="Center"/>
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Color="#000000"/>
+   <Interior ss:Color="#A9D08E" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s20">
+   <Alignment ss:Vertical="Center"/>
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Color="#000000"/>
+   <Interior ss:Color="#C6E0B4" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s21">
+   <Alignment ss:Vertical="Center"/>
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Color="#E2EFDA"/>
+  </Style>
+  <Style ss:ID="s22">
+   <Alignment ss:Vertical="Center"/>
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Color="#E2EFDA"/>
+   <Interior ss:Color="#E2EFDA" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s23">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s24">
+   <Alignment ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s25">
+   <Alignment ss:Vertical="Center"/>
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Color="#000000"/>
+   <Interior ss:Color="#E2EFDA" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s26">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Color="#000000" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s27">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s28">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s29">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Color="#000000" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s30">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s31">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s32">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s33">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Color="#000000" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s34">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Color="#000000" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s35">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s36">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s37">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s38">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#A9D08E" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s39">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Color="#000000" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s40">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Color="#FF0000" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s41">
+   <Alignment ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Color="#000000"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s42">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s43">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s44">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s45">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:CharSet="1" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s46">
+   <Alignment ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#A9D08E" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s47">
+   <Alignment ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Color="#000000"/>
+   <Interior ss:Color="#E2EFDA" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s48">
+   <Alignment ss:Vertical="Center"/>
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Color="#000000"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s49">
+   <Alignment ss:Vertical="Center"/>
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s50">
+   <Alignment ss:Vertical="Center"/>
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Color="#FF0000" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s51">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Color="#FF0000" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s52">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Color="#000000" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s53">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s54">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#A9D08E" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s55">
+   <Alignment ss:Vertical="Top"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#A9D08E" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s56">
+   <Alignment ss:Vertical="Top"/>
+  </Style>
+  <Style ss:ID="s57">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#A9D08E" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s58">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
+  </Style>
+  <Style ss:ID="s59">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s60">
+   <Alignment ss:Vertical="Top"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s61">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s62" ss:Parent="s16">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s67">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+   <Interior ss:Color="#A9D08E" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s68">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s69">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s87">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#A9D08E" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s88">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#E2EFDA" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s98">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Color="#000000" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s102">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Color="#000000" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s106">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Bold="1"/>
+   <Interior ss:Color="#C6E0B4" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s107">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+   <Interior ss:Color="#E2EFDA" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s108">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Color="#000000" ss:Bold="1"/>
+  </Style>
+ </Styles>
+ <Names>
+  <NamedRange ss:Name="TC_1" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="TC_R_N" ss:RefersTo="=#REF!"/>
+ </Names>
+ <Worksheet ss:Name="All_Tasks">
+  <Table ss:ExpandedColumnCount="4" ss:ExpandedRowCount="7" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="14.4">
+   <Column ss:StyleID="s58" ss:AutoFitWidth="0" ss:Width="49.2"/>
+   <Column ss:StyleID="s28" ss:AutoFitWidth="0" ss:Width="328.79999999999995"/>
+   <Column ss:StyleID="s58" ss:AutoFitWidth="0" ss:Width="111"/>
+   <Column ss:StyleID="s56" ss:AutoFitWidth="0" ss:Width="571.79999999999995"/>
+   <Row>
+    <Cell ss:StyleID="s57"><Data ss:Type="String">№</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="String">TASK</Data></Cell>
+    <Cell ss:StyleID="s57"><Data ss:Type="String">Link</Data></Cell>
+    <Cell ss:StyleID="s55"><Data ss:Type="String">Additional explanation</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="27.75">
+    <Cell ss:StyleID="s59"><Data ss:Type="String">1.</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">Create a checklist for the&#160;[learn.epam.com]&#160;application.</Data></Cell>
+    <Cell ss:StyleID="s62" ss:HRef="#'1-2q_Checklist'!A1"><Data ss:Type="String">1-2q_Checklist</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="String">Please see the list.</Data></Cell>
+   </Row>
+   <Row ss:Height="360">
+    <Cell ss:StyleID="s59"><Data ss:Type="String">2.</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">Point out which tests you think should be added to the regression scope and smoke scope.</Data></Cell>
+    <Cell ss:StyleID="s62" ss:HRef="#'1-2q_Checklist'!A1"><Data ss:Type="String">1-2q_Checklist</Data></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">Please see the list.&#10;&#10;1. Smoke scope.&#10;It consists of a minimal set of tests run on each build to test software functionalities.&#10;It is a simple test that shows the product is ready for testing.&#10;&#10;2. Regression scope &#10;Usually, to conduct regression testing a tester should select test cases that will cover areas that can be influenced by new changes. So, these testing scenarios are not scripted and depend on the situation.&#10;As these are repetitive tests, test cases can be automated so that a set of test cases alone can be easily executed on a new build.&#10;Regression test cases need to be selected very carefully so that maximum functionality is covered in a minimum set of test cases. These set of test cases need continuous improvements for newly added functionality.&#10;It is appropriate to have a regression test suite at every level of testing (component testing, integration testing, system testing, etc.).&#10;&#10;Various techniques for selecting:&#10;-   Retest all - the entire test cases in the test suite are re-executed. This is an expensive method as it requires more time and resources when compared to the other techniques.&#10;-  Regression Test Selection - In this method, test cases are selected from the test suite to be re-executed. Not that the entire suite has been re-executed. The selection of test cases is done on the basis of code change in the module.&#10;-  Test case Prioritization. Test cases with high Priority are executed first rather than the ones with medium and low priority. The priority of the test case depends on its criticality and its impact on the product and also on the functionality of the product which is used more often.&#10;-  Hybrid - The hybrid technique is a combination of Regression Test Selection and Test case Prioritization.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="21">
+    <Cell ss:StyleID="s59"><Data ss:Type="String">3.</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">Create test cases for smoke testing.</Data></Cell>
+    <Cell ss:StyleID="s62" ss:HRef="#'3q_Test_cases_Smoke'!A1"><Data
+      ss:Type="String">3q_Test_cases_Smoke</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="String">Please see the list.</Data></Cell>
+   </Row>
+   <Row ss:Height="28.8">
+    <Cell ss:StyleID="s59"><Data ss:Type="String">4.</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">Compare checklist and test cases and explain what is more reasonable to use and why.</Data></Cell>
+    <Cell ss:StyleID="s62" ss:HRef="#'4q_Compare_CL_TC'!A1"><Data ss:Type="String">4q_Compare_CL_TC</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="String">Please see the list.</Data></Cell>
+   </Row>
+   <Row ss:Index="7">
+    <Cell><Data ss:Type="String"> </Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>2</ActiveRow>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Checklist learn.epam.com">
+  <Table ss:ExpandedColumnCount="16" ss:ExpandedRowCount="126" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s18" ss:DefaultColumnWidth="49.2"
+   ss:DefaultRowHeight="14.4">
+   <Column ss:StyleID="s49" ss:AutoFitWidth="0" ss:Width="33"/>
+   <Column ss:StyleID="s39" ss:AutoFitWidth="0" ss:Width="96.6"/>
+   <Column ss:StyleID="s26" ss:AutoFitWidth="0" ss:Width="56.4"/>
+   <Column ss:StyleID="s27" ss:AutoFitWidth="0" ss:Width="397.2"/>
+   <Column ss:StyleID="s18" ss:AutoFitWidth="0" ss:Width="69"/>
+   <Column ss:StyleID="s33" ss:AutoFitWidth="0" ss:Width="72"/>
+   <Column ss:StyleID="s32" ss:AutoFitWidth="0" ss:Width="99.6"/>
+   <Column ss:StyleID="s44" ss:AutoFitWidth="0" ss:Width="423"/>
+   <Column ss:StyleID="s18" ss:AutoFitWidth="0" ss:Width="435"/>
+   <Row ss:AutoFitHeight="0" ss:Height="46.2" ss:StyleID="s19">
+    <Cell ss:StyleID="s46"><Data ss:Type="String">ID</Data></Cell>
+    <Cell ss:StyleID="s38"><Data ss:Type="String">Module</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Verify</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Summary  </Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Result &#10;(Passed/Failed)</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Smoke testing</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Regression testing</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">The reason for the need for smoke or regression testing</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="19.5" ss:StyleID="s20">
+    <Cell ss:MergeAcross="7" ss:StyleID="s106"><Data ss:Type="String">I. Checklists for Functionality of learn.epam.com (on March 2023)</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="21.75" ss:StyleID="s22">
+    <Cell ss:StyleID="s47"><Data ss:Type="String">1.</Data></Cell>
+    <Cell ss:MergeAcross="6" ss:StyleID="s107"><Data ss:Type="String">Start page </Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18.75">
+    <Cell ss:StyleID="s41"><Data ss:Type="String">1.1.</Data></Cell>
+    <Cell ss:MergeDown="6" ss:StyleID="s29"/>
+    <Cell ss:MergeDown="6" ss:StyleID="s66"><Data ss:Type="String">Verify</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">The Main Menu works correctly. </Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s30"><Data ss:Type="String">Сore functionality or features of the App. But the probability of an error as a result of changing other functionality is relatively low.&#10;Regression testing is possible if the changes could affect on this functionality.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.25">
+    <Cell ss:StyleID="s41"><Data ss:Type="String">1.2</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s64"><Data ss:Type="String">All buttons and links on the Start page work correctly.</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">-</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="62.25">
+    <Cell ss:StyleID="s41"><Data ss:Type="String">1.3.</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s36"><Data ss:Type="String">The &quot;Log in to get full experience&quot; and &quot;Log in&quot; buttons on the Start page present and work correctly. &#10;When the user clicks on them, users should be redirected to the EPAM Digital Platform (https://access.epam.com/auth/....) for registration or login.</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Smoke testing</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Smoke testing as main, minimal mission-critical functionality, before planned testing begins.&#10;Regression testing is possible if the changes could affect on this functionality.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="94.2">
+    <Cell ss:StyleID="s41"><Data ss:Type="String">1.4</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s64"><Data ss:Type="String">After the user logs in, the Start page changes its composition according to the requirements: &#10;- the button &quot;Log in to get full experience&quot; disappears from the Start page; &#10;- the &quot;My learning&quot; button, the &quot;Location&quot; button, the location widget, the avatar icon, the bookmark icon appear in the Main menu;&#10;- the &quot;Progress bar&quot; widget appears in the Start page.</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Сore functionality or features of the App. But the probability of an error as a result of changing other functionality is relatively low.&#10;Regression testing is possible if the changes could affect on this functionality.</Data></Cell>
+   </Row>
+   <Row ss:Height="57.6">
+    <Cell ss:StyleID="s41"><Data ss:Type="String">1.5.</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s64"><Data ss:Type="String">The &quot;Progress bar&quot; widget on the Start page works correctly.&#10;Progress bar shows the user's course progress status in a friendly way. If the user have several courses that was started them will see two most completed courses on the start page.</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="m1882302005948"><Data ss:Type="String">Non-priority test cases for regression testing.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s41"><Data ss:Type="String">1.6</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s64"><Data ss:Type="String">The 'Back' icon/arrow appears, when the user scrolls down the page.</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">-</Data></Cell>
+   </Row>
+   <Row ss:Height="28.8">
+    <Cell ss:StyleID="s41"><Data ss:Type="String">1.7.</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s63"><Data ss:Type="String">The footer 'Privacy Policy, Privacy Notice, Cookies Policy' appears, when the user reaches the end of the page, and all links work.</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s42"><Data ss:Type="String">Important functionality, but the probability of an error there is relatively small.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.25" ss:StyleID="s25">
+    <Cell ss:StyleID="s47"><Data ss:Type="String">2.</Data></Cell>
+    <Cell ss:MergeAcross="6" ss:StyleID="s88"><Data ss:Type="String">User Profile</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+   </Row>
+   <Row ss:Height="43.199999999999996">
+    <Cell ss:StyleID="s41"><Data ss:Type="String">2.1.</Data></Cell>
+    <Cell ss:MergeDown="4" ss:StyleID="s29"/>
+    <Cell ss:MergeDown="4" ss:StyleID="s66"><Data ss:Type="String">Verify</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">When the user wants to update the information in the profile, clicking on the &quot;edit&quot; icon in the user's profile redirects them to the EPAM/PROFILE platform: https://profile.epam.com / (user id).</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s30"><Data ss:Type="String">Important functionality or features of the App. But the probability of an error as a result of changing other functionality is relatively low.&#10;Regression testing is possible if the changes could affect on this functionality.</Data></Cell>
+   </Row>
+   <Row ss:Height="28.8">
+    <Cell ss:StyleID="s41"><Data ss:Type="String">2.2.</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s64"><Data ss:Type="String">After saving changes in the user's profile on the EPAM/PROFILE platform, the changed information is reflected in the user profile.</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+   </Row>
+   <Row ss:Height="28.8">
+    <Cell ss:StyleID="s41"><Data ss:Type="String">2.3.</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s23"><Data ss:Type="String">The user can sign out of the application.</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Smoke testing</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Smoke testing as main, minimal mission-critical functionality,  before planned testing begins.&#10;Regression testing is possible if the changes could affect on this functionality.</Data></Cell>
+   </Row>
+   <Row ss:Height="28.8">
+    <Cell ss:StyleID="s41"><Data ss:Type="String">2.4.</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s23"><Data ss:Type="String">The user can select, save and change their location using the &quot;Location&quot; widget.&#10; &quot;Location&quot; widget is displayed only after login.</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s45"><Data ss:Type="String">Non-priority test cases for regression testing.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s41"><Data ss:Type="String">2.5.</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s64"><Data ss:Type="String">The working of the &quot;BOOKMARKS&quot; widget in &quot;My profile&quot; is correct.</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s42"><Data ss:Type="String">Intersects with this widget check in the &quot;Catalog&quot; section.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="21.75" ss:StyleID="s25">
+    <Cell ss:StyleID="s47"><Data ss:Type="String">3.</Data></Cell>
+    <Cell ss:MergeAcross="6" ss:StyleID="s88"><Data ss:Type="String">&quot;Catalog&quot; section</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="21.75" ss:StyleID="s25">
+    <Cell ss:StyleID="s41"><Data ss:Type="String">3.1.</Data></Cell>
+    <Cell ss:MergeDown="6" ss:StyleID="s108"/>
+    <Cell ss:MergeDown="6" ss:StyleID="s66"><Data ss:Type="String">Verify</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The working of the &quot;All item&quot; widget is correct.</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">Regression testing</Data></Cell>
+    <Cell ss:StyleID="s42"><Data ss:Type="String">Core functionality or features of the App. Priority test cases.</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+   </Row>
+   <Row ss:Height="43.199999999999996">
+    <Cell ss:StyleID="s41"><Data ss:Type="String">3.2.</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s64"><Data ss:Type="String">The ability to add courses to bookmarks.</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s43"><Data ss:Type="String">Important functionality or features of the App. But the probability of an error as a result of changing other functionality is relatively low.&#10;Regression testing is possible if the changes could affect on this functionality.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s41"><Data ss:Type="String">3.3.</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s64"><Data ss:Type="String">The working of the &quot;BOOKMARKS&quot; widget is correct.</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">Regression testing</Data></Cell>
+    <Cell ss:StyleID="s42"><Data ss:Type="String">Core functionality or features of the App. Priority test cases.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45.75">
+    <Cell ss:StyleID="s41"><Data ss:Type="String">3.4.</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s64"><Data ss:Type="String">The possibility to search for courses in the search field.</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="m1882302005968"><Data ss:Type="String">Important functionality or features of the App. But the probability of an error as a result of changing other functionality is relatively low.&#10;Regression testing is possible if the changes could affect on this functionality.</Data></Cell>
+   </Row>
+   <Row ss:Height="43.199999999999996">
+    <Cell ss:StyleID="s41"><Data ss:Type="String">3.5.</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s64"><Data ss:Type="String">The working of the &quot;SСHEDULE&quot; widget is correct.&#10;&quot;SCHEDULE&quot; is a list of learning courses with fixed dates in calendar order or already planned ongoing courses.</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s41"><Data ss:Type="String">3.6.</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s64"><Data ss:Type="String">The user can sort content with button box &quot;Sort by&quot; section by rating, enrolled, name.</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">Regression testing</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="m1882302005988"><Data ss:Type="String">Functionalities that are frequently used. Priority test cases.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s41"><Data ss:Type="String">3.7.</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s64"><Data ss:Type="String">The user can filter content in the &quot;FILTERS&quot; subsection.</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">Regression testing</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="24" ss:StyleID="s25">
+    <Cell ss:StyleID="s47"><Data ss:Type="String">4.</Data></Cell>
+    <Cell ss:MergeAcross="6" ss:StyleID="s88"><Data ss:Type="String">Course Content</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="28.5">
+    <Cell ss:StyleID="s41"><Data ss:Type="String">4.1.</Data></Cell>
+    <Cell ss:MergeDown="8" ss:StyleID="s29"/>
+    <Cell ss:MergeDown="8" ss:StyleID="s66"><Data ss:Type="String">Verify</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">The user can open Base Details Page of course by clicking on the card of this course. </Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s30"><Data ss:Type="String">Important functionality or features of the App. But the probability of an error as a result of changing other functionality is relatively low.&#10;Regression testing is possible if the changes could affect on this functionality.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="22.5">
+    <Cell ss:StyleID="s41"><Data ss:Type="String">4.2.</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s64"><Data ss:Type="String">The possibility to review catalog and courses description without logging in.</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="68.25">
+    <Cell ss:StyleID="s41"><Data ss:Type="String">4.3.</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s23"><Data ss:Type="String">The user can log in to the application by clicking on any of two &quot;Log in to study&quot; buttons on the course page (for courses that does not requires registration).&#10;When the user clicking on any of them, the user should be redirected to the EPAM Digital Platform  (https://access.epam.com/auth/....)  for registration or log in.</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Smoke testing</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="m1882302006008"><Data ss:Type="String">Smoke testing as main, minimal mission-critical functionality,  before planned testing begins.&#10;Regression testing is possible if the changes could affect on this functionality.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="65.25">
+    <Cell ss:StyleID="s41"><Data ss:Type="String">4.4.</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s23"><Data ss:Type="String">The user can log in to the application by clicking on any of two &quot;Log in to register&quot; buttons on the course page (for courses that requires registration).&#10;When the user clicking on any of them, the user should be redirected to the EPAM Digital Platform  (https://access.epam.com/auth/....)  for registration or log in.</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Smoke testing</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45.75">
+    <Cell ss:StyleID="s41"><Data ss:Type="String">4.5.</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s64"><Data ss:Type="String">Clicking on the &quot;Register&quot; button opens the registration widget.</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Smoke testing</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="27.75">
+    <Cell ss:StyleID="s41"><Data ss:Type="String">4.6.</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s64"><Data ss:Type="String">The working of registration widget is correct.</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">Regression testing</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="m1882302006028"><Data ss:Type="String">Functionalities that are frequently used. Priority test cases.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="32.25">
+    <Cell ss:StyleID="s41"><Data ss:Type="String">4.7.</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s64"><Data ss:Type="String">The possibility to receive a notification when the course dates are established, if the user submitted a request for education.</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">Regression testing</Data></Cell>
+   </Row>
+   <Row ss:Height="43.199999999999996">
+    <Cell ss:StyleID="s41"><Data ss:Type="String">4.8.</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s23"><Data ss:Type="String">Correct working of &quot;Study&quot; button.&#10;This button redirects to the platform eLearn.EPAM.com (https://elearn.epam.com) to a specific course.</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Smoke testing</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Smoke testing as main, minimal mission-critical functionality,  before planned testing begins.&#10;Regression testing is possible if the changes could affect the functionality of the button.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s41"><Data ss:Type="String">4.9.</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s23"><Data ss:Type="String">After the end of the course, the user can view its materials using the clicking &quot;View&quot; button, that should appear automatically after course completion.</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">Regression testing</Data></Cell>
+    <Cell ss:StyleID="s42"><Data ss:Type="String">Functionalities that are frequently used. Priority test cases.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="22.5" ss:StyleID="s25">
+    <Cell ss:StyleID="s47"><Data ss:Type="String">5.</Data></Cell>
+    <Cell ss:MergeAcross="6" ss:StyleID="s88"><Data ss:Type="String">Feedbacks</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="65.25">
+    <Cell ss:StyleID="s41"><Data ss:Type="String">5.1.</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="s29"/>
+    <Cell ss:MergeDown="2" ss:StyleID="s66"><Data ss:Type="String">Verify</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">The possibility to leave a feedback after the end of the course using Feedback widget. Correct working of this widget. &#10;After completing a training course, the user can go to &quot;MY LEARNING&quot; and click &quot;LEAVE FEEDBACK&quot; button the next to the course they have completed. </Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="s30"><Data ss:Type="String">Non-priority test cases for regression testing.&#10;The probability of an error as a result of changing other functionality is relatively low.&#10;Regression testing is possible if the changes could affect on this functionality.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="28.5">
+    <Cell ss:StyleID="s41"><Data ss:Type="String">5.2.</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s63"><Data ss:Type="String">Automatic sending of a feedback request to the user's email after the end of the course.</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s41"><Data ss:Type="String">5.3.</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s63"><Data ss:Type="String">The letter with the request for feedback is formed correctly.</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="23.25" ss:StyleID="s25">
+    <Cell ss:StyleID="s47"><Data ss:Type="String">6.</Data></Cell>
+    <Cell ss:MergeAcross="6" ss:StyleID="s88"><Data ss:Type="String">&quot;My learning&quot; section</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="24">
+    <Cell ss:StyleID="s41"><Data ss:Type="String">6.1.</Data></Cell>
+    <Cell ss:MergeDown="7" ss:StyleID="s29"/>
+    <Cell ss:MergeDown="7" ss:StyleID="s66"><Data ss:Type="String">Verify</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">The progress of the user's training activities is saved and displayed correctly.</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">Regression testing</Data></Cell>
+    <Cell ss:StyleID="s42"><Data ss:Type="String">Core functionality or features of the App. Priority test cases.</Data></Cell>
+   </Row>
+   <Row ss:Height="28.8">
+    <Cell ss:StyleID="s41"><Data ss:Type="String">6.2.</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s63"><Data ss:Type="String">The user can sort content in this section by Creation Date, Course Name, Status, Start Date, Update Date.</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">Regression testing</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="m1882302006048"><Data ss:Type="String">Functionalities that are frequently used. Priority test cases.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s41"><Data ss:Type="String">6.3.</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s63"><Data ss:Type="String">The user can filter content by start date, created on.</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">Regression testing</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s41"><Data ss:Type="String">6.4.</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s63"><Data ss:Type="String">The working of the &quot;All Requests&quot; widget is correct.</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">Regression testing</Data></Cell>
+    <Cell ss:MergeDown="4" ss:StyleID="m1882302005928"><Data ss:Type="String">Core functionality or features of the App. Priority test cases.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s41"><Data ss:Type="String">6.5.</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s63"><Data ss:Type="String">The working of the &quot;Feedback Required&quot; widget is correct.</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">Regression testing</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s41"><Data ss:Type="String">6.6.</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s63"><Data ss:Type="String">The working of the &quot;Active Requests&quot; widget is correct.</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">Regression testing</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s41"><Data ss:Type="String">6.7.</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s63"><Data ss:Type="String">The working of the &quot;Closed Requests&quot; widget is correct.</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">Regression testing</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="57.75">
+    <Cell ss:StyleID="s41"><Data ss:Type="String">6.8.</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s63"><Data ss:Type="String">The user can manage their courses using courses widgets in &quot;My learning&quot; section is correct.&#10;The buttons &quot;Study&quot;, &quot;Exclude me&quot;, &quot;Leave Feedback&quot; are displayed and working correctly.</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">Regression testing</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.25" ss:StyleID="s25">
+    <Cell ss:StyleID="s47"><Data ss:Type="String">7.</Data></Cell>
+    <Cell ss:MergeAcross="6" ss:StyleID="s88"><Data ss:Type="String">&quot;Contribution&quot; section</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:StyleID="s41"><Data ss:Type="String">7.1.</Data></Cell>
+    <Cell ss:MergeDown="3" ss:StyleID="s29"/>
+    <Cell ss:MergeDown="3" ss:StyleID="s66"><Data ss:Type="String">Verify</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The working of the &quot;Mentorship&quot; widget is correct.</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">Regression testing</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="m1882302006068"><Data ss:Type="String">Functionalities that are frequently used. Priority test cases.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.25">
+    <Cell ss:StyleID="s41"><Data ss:Type="String">7.2.</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s64"><Data ss:Type="String">The working of the &quot;Expert view&quot; widget is correct.</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">Regression testing</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18.75">
+    <Cell ss:StyleID="s41"><Data ss:Type="String">7.3.</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s23"><Data ss:Type="String">The user can filter content in this section by start date, created on.</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="m1882302006088"><Data ss:Type="String">Non-priority test cases for regression testing.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31.5">
+    <Cell ss:StyleID="s41"><Data ss:Type="String">7.4.</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s23"><Data ss:Type="String">The user can sort content in this section by Course Name, Creation Date, Update Date, Status.</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="21" ss:StyleID="s25">
+    <Cell ss:StyleID="s47"><Data ss:Type="String">8.</Data></Cell>
+    <Cell ss:MergeAcross="6" ss:StyleID="s107"><Data ss:Type="String">&quot;Help&quot; section</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s41"><Data ss:Type="String">8.1.</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="s29"/>
+    <Cell ss:MergeDown="2" ss:StyleID="s66"><Data ss:Type="String">Verify</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">The &quot;Next&quot; button redirects to the next page.</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="m1882302006108"><Data ss:Type="String">Non-priority test cases for regression testing.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s41"><Data ss:Type="String">8.2.</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s23"><Data ss:Type="String">The &quot;Previous&quot; button redirects to the previous page.</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s41"><Data ss:Type="String">8.3.</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s23"><Data ss:Type="String">The user can navigate in this section using the content widget.</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="21.75" ss:StyleID="s25">
+    <Cell ss:StyleID="s47"><Data ss:Type="String">9.</Data></Cell>
+    <Cell ss:MergeAcross="6" ss:StyleID="s88"><Data ss:Type="String">Technical Support ( icon &quot;Help &amp; Support&quot; widget)</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s41"><Data ss:Type="String">9.1.</Data></Cell>
+    <Cell ss:MergeDown="3" ss:StyleID="s29"/>
+    <Cell ss:MergeDown="3" ss:StyleID="s66"><Data ss:Type="String">Verify</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Clicking on the question icon opens the &quot;Help &amp; Support&quot; widget.</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:MergeDown="3" ss:StyleID="s30"><Data ss:Type="String">Non-priority test cases for regression testing.&#10;The probability of an error as a result of changing other functionality is relatively low.&#10;Regression testing is possible if the changes could affect on this functionality.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="27.75">
+    <Cell ss:StyleID="s41"><Data ss:Type="String">9.2.</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s23"><Data ss:Type="String">The user can enter up to 2000 symbols inclusive in the widget text input field.&#10;Check valid and invalid characters.</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="33">
+    <Cell ss:StyleID="s41"><Data ss:Type="String">9.3.</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s23"><Data ss:Type="String">The ability to attach a file to the message via &quot;Help &amp; Support&quot; widget. Check the format and size limits.</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s41"><Data ss:Type="String">9.4.</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s64"><Data ss:Type="String">The button &quot;Send&quot; the message works correctly. </Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s25">
+    <Cell ss:MergeAcross="7" ss:StyleID="s106"><Data ss:Type="String">II. Checklists for Non-Functional Testing of learn.epam.com (on March 2023)</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s25">
+    <Cell ss:StyleID="s47"><Data ss:Type="String">10.</Data></Cell>
+    <Cell ss:MergeAcross="6" ss:StyleID="s88"><Data ss:Type="String">GUI Testing</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:MergeDown="2" ss:StyleID="s41"><Data ss:Type="String">10.1.</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="s102"/>
+    <Cell ss:MergeDown="2" ss:StyleID="s66"><Data ss:Type="String">Verify</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">A font, text color, and color coding of the pages is as per the standard.</Data></Cell>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="m1882302006128"><Data ss:Type="String">Non-priority test cases for regression testing.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s30"><Data ss:Type="String">All buttons, links and widgets are displayed as per the standard.</Data></Cell>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s65"><Data ss:Type="String">The correctness of the display of the course card and its elements.</Data></Cell>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s47"><Data ss:Type="String">11.</Data></Cell>
+    <Cell ss:MergeAcross="6" ss:StyleID="s88"><Data ss:Type="String">Compatibility testing </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="27.6">
+    <Cell ss:StyleID="s41"><Data ss:Type="String">11.1.</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s29"/>
+    <Cell ss:MergeDown="1" ss:StyleID="s66"><Data ss:Type="String">Verify</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The possibility to load the application on multiple browsers, operating systems, and devices.</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">Regression testing</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="m1882302006148"><Data ss:Type="String">Priority test cases.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s41"><Data ss:Type="String">11.2.</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s23"><Data ss:Type="String">The application is compatible with multiple browsers, operating systems, and devices.&#10;The application works in the same way for all platforms.</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">Regression testing</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.25">
+    <Cell ss:StyleID="s47"><Data ss:Type="String">13.</Data></Cell>
+    <Cell ss:MergeAcross="6" ss:StyleID="s88"><Data ss:Type="String">Interoperability testing</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="27.75">
+    <Cell ss:StyleID="s41"><Data ss:Type="String">13.1.</Data></Cell>
+    <Cell ss:MergeDown="3" ss:StyleID="s29"/>
+    <Cell ss:MergeDown="3" ss:StyleID="s66"><Data ss:Type="String">Verify</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">The application interacts correctly with platform EPAM Digital Platform (https://access.epam.com).</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">Regression testing</Data></Cell>
+    <Cell ss:MergeDown="3" ss:StyleID="s30"><Data ss:Type="String">Integration test cases that include all the major components.&#10;Priority test cases</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30.75">
+    <Cell ss:StyleID="s41"><Data ss:Type="String">13.2.</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s23"><Data ss:Type="String">The application interacts correctly with platform https://profile.epam.com.</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">Regression testing</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s41"><Data ss:Type="String">13.3.</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s23"><Data ss:Type="String">The application interacts correctly with platform eLearn.EPAM.com.</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">Regression testing</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="24.75">
+    <Cell ss:StyleID="s41"><Data ss:Type="String">13.4.</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s23"><Data ss:Type="String">The application interacts correctly with platforms from &quot;Public App&quot; widget.</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">Regression testing</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18">
+    <Cell ss:StyleID="s47"><Data ss:Type="String">14.</Data></Cell>
+    <Cell ss:MergeAcross="6" ss:StyleID="s88"><Data ss:Type="String">Security testing</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s41"><Data ss:Type="String">14.1.</Data></Cell>
+    <Cell ss:MergeDown="4" ss:StyleID="s102"/>
+    <Cell ss:MergeDown="4" ss:StyleID="s66"><Data ss:Type="String">Verify</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">User data is protected.</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:MergeDown="3" ss:StyleID="m1882302006168"><Data ss:Type="String">Priority test cases. Complex Test Cases.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s41"><Data ss:Type="String">14.2.</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s64"><Data ss:Type="String">The impossibility to access other users' personal information.</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s41"><Data ss:Type="String">14.3.</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s23"><Data ss:Type="String">The system is protected from third-party attacks.</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s41"><Data ss:Type="String">14.4.</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s23"><Data ss:Type="String">The timeout functionality of the login session.</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="68.25">
+    <Cell ss:StyleID="s41"><Data ss:Type="String">14.5.</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s23"><Data ss:Type="String">If the user pressed &quot;Back button&quot; of the browser, it should not allow to enter into the system once the user log out.</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s45"><Data ss:Type="String">Non-priority test cases for regression testing.</Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="22.5">
+    <Cell ss:StyleID="s47"><Data ss:Type="String">15.</Data></Cell>
+    <Cell ss:MergeAcross="6" ss:StyleID="s88"><Data ss:Type="String">Usability testing</Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:Height="43.199999999999996">
+    <Cell ss:StyleID="s41"><Data ss:Type="String">15.1.</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s102"><Data ss:Type="String">&#160;</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s66"><Data ss:Type="String">Verify</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Users can use the application easy, convenient, and effective.&#10;Note that usability testing is not implemented as a separate type but can be used in addition to GUI testing.</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="m1882302006188"><Data ss:Type="String">Non-priority test cases for regression testing.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="24">
+    <Cell ss:StyleID="s41"><Data ss:Type="String">15.2.</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s23"><Data ss:Type="String">The information in &quot;Help&quot; section is up-to-date.</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s34"/>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s27"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.25">
+    <Cell ss:StyleID="s47"><Data ss:Type="String">16.</Data></Cell>
+    <Cell ss:MergeAcross="6" ss:StyleID="s88"><Data ss:Type="String">Performance Testing</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="27.75">
+    <Cell ss:StyleID="s41"><Data ss:Type="String">16.1.</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s98"/>
+    <Cell ss:MergeDown="1" ss:StyleID="s66"><Data ss:Type="String">Verify</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The possibility of loading the application within a specified amount of time.</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">Regression testing</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="m1882302008636"><Data ss:Type="String">Priority test cases. Complex Test Cases.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="50.25">
+    <Cell ss:StyleID="s41"><Data ss:Type="String">16.2.</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s64"><Data ss:Type="String">The speed, responsiveness, efficiency, and stability of application under a workload. &#10;How application behaves when it is being used and how fast it works under various loads.</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">Regression testing</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="21">
+    <Cell ss:StyleID="s47"><Data ss:Type="String">17.</Data></Cell>
+    <Cell ss:MergeAcross="6" ss:StyleID="s88"><Data ss:Type="String">Accessibility  testing</Data></Cell>
+   </Row>
+   <Row ss:Height="57.6">
+    <Cell ss:StyleID="s41"><Data ss:Type="String">17.1.</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Verify</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The website and content pages meet the accessibility standards established by the World Wide Web Consortium (W3C), particularly the Web Content Accessibility Guidelines (WCAG) 2.0 Level A/AA, and the additional elements proposed by W3C in its WCAG 2.1</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s45"><Data ss:Type="String">Non-priority test cases for regression testing.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s47"><Data ss:Type="String">18.</Data></Cell>
+    <Cell ss:MergeAcross="6" ss:StyleID="s88"><Data ss:Type="String">Maintainability testing</Data></Cell>
+   </Row>
+   <Row ss:Height="28.8">
+    <Cell ss:StyleID="s41"><Data ss:Type="String">18.1.</Data></Cell>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Verify</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The software's capability to be modified without introducing defects or compromising existing functionality.</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s45"><Data ss:Type="String">Non-priority test cases for regression testing.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s48"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s48"/>
+    <Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s87"><Data ss:Type="String">Additionally</Data></Cell>
+   </Row>
+   <Row ss:Height="28.8">
+    <Cell ss:StyleID="s48"/>
+    <Cell ss:Index="6" ss:StyleID="s52"><Data ss:Type="String">Smoke scope</Data></Cell>
+    <Cell ss:StyleID="s53"/>
+    <Cell ss:StyleID="s37"><Data ss:Type="String">It consists of a minimal set of tests run on each build to test software functionalities.&#10;It is a simple test that shows the product is ready for testing.</Data></Cell>
+   </Row>
+   <Row ss:Height="72">
+    <Cell ss:StyleID="s48"/>
+    <Cell ss:Index="5" ss:StyleID="s50"/>
+    <Cell ss:StyleID="s34"/>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">It can also be included in Regression testing</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">- Test cases that cover the module where the changes have been made.&#10;- Priority 1 and Priority 2 test cases should be included.&#10;- Test cases of frequently failed or recent testing defects were found for the same.&#10;- Complex test cases.&#10;- Integration Test Cases</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s48"/>
+    <Cell ss:Index="7" ss:StyleID="s18"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s48"/>
+    <Cell ss:StyleID="s40"/>
+    <Cell ss:Index="7" ss:StyleID="s18"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s48"/>
+    <Cell ss:Index="7" ss:StyleID="s51"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s48"/>
+    <Cell ss:Index="7" ss:StyleID="s44"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s48"/>
+    <Cell ss:Index="7" ss:StyleID="s44"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s48"/>
+    <Cell ss:Index="7" ss:StyleID="s44"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s48"/>
+    <Cell ss:Index="7" ss:StyleID="s44"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s48"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s48"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s48"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s48"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s48"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s48"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s48"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s48"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s48"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s48"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s48"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s48"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s48"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s48"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s48"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s48"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s48"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s48"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s48"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s48"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s48"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s48"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s48"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s48"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s48"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Zoom>85</Zoom>
+   <Selected/>
+   <FreezePanes/>
+   <FrozenNoSplit/>
+   <SplitHorizontal>1</SplitHorizontal>
+   <TopRowBottomPane>76</TopRowBottomPane>
+   <ActivePane>2</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+     <ActiveRow>0</ActiveRow>
+     <RangeSelection>R1C1:R94C8</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
