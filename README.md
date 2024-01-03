@@ -28,4 +28,4 @@ As a beginner in the field, I've included various artifacts from my training cou
 
 ## Thank you for visiting my QA Portfolio!
 
-The portfolio will be supplemented with new works
+The portfolio will be supplemented with new works.
