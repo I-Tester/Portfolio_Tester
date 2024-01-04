@@ -21,11 +21,9 @@ As a beginner in the field, I've included various artifacts from my training cou
 ### 2.	Test cases
 
 #### 2.1.	Web Application Testing 
-- Test cases for smoke testing for the learn.epam.com application (testing courses) [LINK](Test Documentation/Test Cases/Web_app/TestCases for learn.epam.com _STA course.xlsx)
+- Test cases for smoke testing for the learn.epam.com application (testing courses) [LINK](Test Documentation/Test Cases/Web_app/TestCases for learn.epam.com _STA course.htm)
 
 
 ---------------
 
 ## Thank you for visiting my QA Portfolio!
-
-The portfolio will be supplemented with new works.
