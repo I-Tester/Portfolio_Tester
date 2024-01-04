@@ -21,7 +21,7 @@ As a beginner in the field, I've included various artifacts from my training cou
 ### 2.	Test cases
 
 #### 2.1.	Web Application Testing 
-- Test cases for smoke testing for the learn.epam.com application (testing courses) [LINK](Test_Documentation/Test Cases/Web_app/TestCases_for_learn.epam.com_STA_course.htm)
+- Test cases for smoke testing for the learn.epam.com application (testing courses) [LINK](Test_Documentation/Test_Cases/Web_app/TestCases_for_learn.epam.com_STA_course.htm)
 
 
 ---------------
