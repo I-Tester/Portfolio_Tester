@@ -339,11 +339,9 @@ td
 	font-family:Calibri;
 	mso-generic-font-family:auto;
 	mso-font-charset:0;
-	text-align:center;
 	vertical-align:middle;
 	border:.5pt solid black;
-	background:#A9D08E;
-	mso-pattern:black none;}
+	white-space:normal;}
 .xl100
 	{mso-style-parent:style0;
 	color:black;
@@ -359,128 +357,16 @@ td
 	white-space:normal;}
 .xl101
 	{mso-style-parent:style0;
+	color:black;
+	font-weight:700;
 	font-family:Calibri;
 	mso-generic-font-family:auto;
 	mso-font-charset:0;
 	text-align:left;
 	vertical-align:middle;
-	border-top:.5pt solid black;
-	border-right:.5pt solid black;
-	border-bottom:none;
-	border-left:.5pt solid black;}
+	border:.5pt solid black;
+	white-space:normal;}
 .xl102
-	{mso-style-parent:style0;
-	font-family:Calibri;
-	mso-generic-font-family:auto;
-	mso-font-charset:0;
-	text-align:left;
-	vertical-align:middle;
-	border-top:none;
-	border-right:.5pt solid black;
-	border-bottom:none;
-	border-left:.5pt solid black;}
-.xl103
-	{mso-style-parent:style0;
-	font-family:Calibri;
-	mso-generic-font-family:auto;
-	mso-font-charset:0;
-	text-align:left;
-	vertical-align:middle;
-	border-top:none;
-	border-right:.5pt solid black;
-	border-bottom:.5pt solid black;
-	border-left:.5pt solid black;}
-.xl104
-	{mso-style-parent:style0;
-	color:black;
-	font-family:Calibri;
-	mso-generic-font-family:auto;
-	mso-font-charset:1;
-	text-align:left;
-	vertical-align:middle;
-	border-top:.5pt solid black;
-	border-right:.5pt solid black;
-	border-bottom:none;
-	border-left:.5pt solid black;}
-.xl105
-	{mso-style-parent:style0;
-	color:black;
-	font-family:Calibri;
-	mso-generic-font-family:auto;
-	mso-font-charset:1;
-	text-align:left;
-	vertical-align:middle;
-	border-top:none;
-	border-right:.5pt solid black;
-	border-bottom:.5pt solid black;
-	border-left:.5pt solid black;}
-.xl106
-	{mso-style-parent:style0;
-	font-family:Calibri;
-	mso-generic-font-family:auto;
-	mso-font-charset:0;
-	text-align:left;
-	vertical-align:middle;
-	border-top:.5pt solid black;
-	border-right:.5pt solid black;
-	border-bottom:none;
-	border-left:.5pt solid black;
-	white-space:normal;}
-.xl107
-	{mso-style-parent:style0;
-	font-family:Calibri;
-	mso-generic-font-family:auto;
-	mso-font-charset:0;
-	text-align:left;
-	vertical-align:middle;
-	border-top:none;
-	border-right:.5pt solid black;
-	border-bottom:none;
-	border-left:.5pt solid black;
-	white-space:normal;}
-.xl108
-	{mso-style-parent:style0;
-	color:black;
-	font-family:Calibri;
-	mso-generic-font-family:auto;
-	mso-font-charset:1;
-	text-align:left;
-	vertical-align:middle;
-	border-top:none;
-	border-right:.5pt solid black;
-	border-bottom:none;
-	border-left:.5pt solid black;}
-.xl109
-	{mso-style-parent:style0;
-	color:black;
-	font-weight:700;
-	font-family:Calibri;
-	mso-generic-font-family:auto;
-	mso-font-charset:0;
-	text-align:center;
-	vertical-align:middle;
-	border:.5pt solid black;
-	white-space:normal;}
-.xl110
-	{mso-style-parent:style0;
-	font-weight:700;
-	font-family:Calibri;
-	mso-generic-font-family:auto;
-	mso-font-charset:0;
-	vertical-align:middle;
-	border:.5pt solid black;
-	white-space:normal;}
-.xl111
-	{mso-style-parent:style0;
-	font-weight:700;
-	font-family:Calibri;
-	mso-generic-font-family:auto;
-	mso-font-charset:0;
-	text-align:center;
-	vertical-align:middle;
-	border:.5pt solid black;
-	white-space:normal;}
-.xl112
 	{mso-style-parent:style0;
 	color:windowtext;
 	font-size:14.0pt;
@@ -490,20 +376,135 @@ td
 	border:.5pt solid black;
 	background:#C6E0B4;
 	mso-pattern:black none;}
-.xl113
+.xl103
 	{mso-style-parent:style0;
 	color:black;
 	font-weight:700;
 	font-family:Calibri;
 	mso-generic-font-family:auto;
 	mso-font-charset:0;
-	text-align:left;
+	text-align:center;
 	vertical-align:middle;
 	border:.5pt solid black;
 	white-space:normal;}
+.xl104
+	{mso-style-parent:style0;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	text-align:left;
+	vertical-align:middle;
+	border-top:.5pt solid black;
+	border-right:.5pt solid black;
+	border-bottom:none;
+	border-left:.5pt solid black;}
+.xl105
+	{mso-style-parent:style0;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	text-align:left;
+	vertical-align:middle;
+	border-top:none;
+	border-right:.5pt solid black;
+	border-bottom:.5pt solid black;
+	border-left:.5pt solid black;}
+.xl106
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border:.5pt solid black;
+	white-space:normal;}
+.xl107
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border:.5pt solid black;
+	background:#A9D08E;
+	mso-pattern:black none;}
+.xl108
+	{mso-style-parent:style0;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	text-align:left;
+	vertical-align:middle;
+	border-top:none;
+	border-right:.5pt solid black;
+	border-bottom:none;
+	border-left:.5pt solid black;}
+.xl109
+	{mso-style-parent:style0;
+	color:black;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:1;
+	text-align:left;
+	vertical-align:middle;
+	border-top:.5pt solid black;
+	border-right:.5pt solid black;
+	border-bottom:none;
+	border-left:.5pt solid black;}
+.xl110
+	{mso-style-parent:style0;
+	color:black;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:1;
+	text-align:left;
+	vertical-align:middle;
+	border-top:none;
+	border-right:.5pt solid black;
+	border-bottom:.5pt solid black;
+	border-left:.5pt solid black;}
+.xl111
+	{mso-style-parent:style0;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	text-align:left;
+	vertical-align:middle;
+	border-top:.5pt solid black;
+	border-right:.5pt solid black;
+	border-bottom:none;
+	border-left:.5pt solid black;
+	white-space:normal;}
+.xl112
+	{mso-style-parent:style0;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	text-align:left;
+	vertical-align:middle;
+	border-top:none;
+	border-right:.5pt solid black;
+	border-bottom:none;
+	border-left:.5pt solid black;
+	white-space:normal;}
+.xl113
+	{mso-style-parent:style0;
+	color:black;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:1;
+	text-align:left;
+	vertical-align:middle;
+	border-top:none;
+	border-right:.5pt solid black;
+	border-bottom:none;
+	border-left:.5pt solid black;}
 .xl114
 	{mso-style-parent:style16;
 	color:#0563C1;
+	font-size:12.0pt;
 	text-decoration:underline;
 	text-underline-style:single;
 	text-align:left;
