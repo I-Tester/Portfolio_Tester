@@ -5,7 +5,6 @@ by Liliya Palkhouskaya
 ## Introduction
 
 ### Welcome to my QA Portfolio! 
-This repository showcases examples of my work and test documentation.
 
 As a beginner in the field, I've included various artifacts from my testing courses.
 
