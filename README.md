@@ -16,9 +16,8 @@ As a beginner in the field, I've included various artifacts from my testing cour
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | **Checklists** | Web Application Testing | Checklists for the learn.epam.com application | [LINK](Test_Documentation/Checklists/Web_app/Checklists_for_learn.epam.com_STA_course.htm) | Extra: Smoke scope and regression scope indication with reasons of choosing. | Testing courses | In English |
 | **Test cases** | Web Application Testing | Test cases for smoke testing for the learn.epam.com application | [LINK](Test_Documentation/Test_Cases/Web_app/TestCases_for_learn.epam.com_STA_course.htm) | Test cases. | Testing courses | In English |
-| **Defect Reports** |  | Bugs on the page (screenshot) of an online store | [LINK](Test_Documentation/Defect_Reports/DefectReports_like_web_for_STA_course.htm) | Bug types: Functional, UI, usability, localization. | Testing courses | In English |
-| **Test Techniques** |  | Life insurance module for the company employees | [LINK](Test_Documentation/Test_Techniques/Test_Techniques_STA_course.htm) | Applied: Decision table, equivalence partitioning, boundary value analysis, error guessing, pairwise testing. | Testing courses | In English |
-
+| **Defect Reports** |  | Bugs on the page (screenshot) of an online store | [LINK](Test_Documentation/Defect_Reports/DefectReports_like_web_for_STA_course.htm) | Bug types: Functional, UI, Usability, Localization. | Testing courses | In English |
+| **Test Techniques** |  | Life insurance module for the company employees | [LINK](Test_Documentation/Test_Techniques/Test_Techniques_STA_course.htm) | Applied: Decision table, Equivalence partitioning, Boundary value analysis, Error guessing, Pairwise testing. | Testing courses | In English |
 
 ---------------
 
