@@ -1,10 +1,11 @@
 # QA Portfolio
-by Liliya Palkhouskaya
 
 
 ## Introduction
 
 ### Welcome to my QA Portfolio! 
+
+This repository showcases examples of my works and test documentation.
 
 As a beginner in the field, I've included various artifacts from my testing courses.
 
@@ -14,12 +15,12 @@ As a beginner in the field, I've included various artifacts from my testing cour
 
 ### 1. Checklists
 
-|  | **Branch** | Area | Summary | Content | Origin | Comment | Link |
-| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-| 1. | **Checklists** | Web Application Testing | Checklists for the learn.epam.com application | Extra: Smoke scope and regression scope indication with reasons of choosing. | Testing courses | In English | *[LINK](Test_Documentation/Checklists/Web_app/Checklists_for_learn.epam.com_STA_course.htm)* |
-| 2. | **Test cases** | Web Application Testing | Test cases for smoke testing for the learn.epam.com application | - | Testing courses | In English | [LINK](Test_Documentation/Test_Cases/Web_app/TestCases_for_learn.epam.com_STA_course.htm) |
-| 3. | **Defect Reports** |  | Bugs on the page (screenshot) of an online store | Bug types: Functional, UI, usability, localization. | Testing courses | In English | [LINK](Test_Documentation/Defect_Reports/DefectReports_like_web_for_STA_course.htm) |
-| 4. | **Test Techniques** |  | Life insurance module for the company employees | Applied: Decision table, equivalence partitioning, boundary value analysis, error guessing, pairwise testing. | Testing courses | In English | [LINK](Test_Documentation/Test_Techniques/Test_Techniques_STA_course.htm) |
+| **Branch** | Area | Summary | Link | Content | Origin | Comment |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| **Checklists** | Web Application Testing | Checklists for the learn.epam.com application | *[LINK](Test_Documentation/Checklists/Web_app/Checklists_for_learn.epam.com_STA_course.htm)* | Extra: Smoke scope and regression scope indication with reasons of choosing. | Testing courses | In English |
+| **Test cases** | Web Application Testing | Test cases for smoke testing for the learn.epam.com application | [LINK](Test_Documentation/Test_Cases/Web_app/TestCases_for_learn.epam.com_STA_course.htm) | Test cases. | Testing courses | In English |
+| **Defect Reports** |  | Bugs on the page (screenshot) of an online store | [LINK](Test_Documentation/Defect_Reports/DefectReports_like_web_for_STA_course.htm) | Bug types: Functional, UI, usability, localization. | Testing courses | In English |
+| **Test Techniques** |  | Life insurance module for the company employees | [LINK](Test_Documentation/Test_Techniques/Test_Techniques_STA_course.htm) | Applied: Decision table, equivalence partitioning, boundary value analysis, error guessing, pairwise testing. | Testing courses | In English |
 
 
 ---------------
