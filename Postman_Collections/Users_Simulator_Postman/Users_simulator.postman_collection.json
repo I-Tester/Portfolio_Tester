@@ -1,0 +1,1115 @@
+{
+	"info": {
+		"_postman_id": "e9e3f8c9-d7a7-4a10-8bc3-0c548631d790",
+		"name": "Users_simulator",
+		"description": "\"Users\" project simulator.\n\n\"Users\" was designed to train novice testers by Olga Nazina. It is allowed to use this system for self-practice of API testing.\n\nAbout project [https://okiseleva.blogspot.com/2017/04/users-soap-rest.html.](https://okiseleva.blogspot.com/2017/04/users-soap-rest.html)\n\nMain functionality of \"Users\": registration / authorization, employee list, employee cards, task list, notifications.\n\nAccording to the project documentation, for REST requests must be called through the POST method.\n\nHowever, I've used other methods as well.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32520768"
+	},
+	"item": [
+		{
+			"name": "doRegister_positive",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "sample.test@mail.ru",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "UserTester456",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "TestPass789",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://users.bugred.ru/tasks/rest/doregister",
+					"protocol": "http",
+					"host": [
+						"users",
+						"bugred",
+						"ru"
+					],
+					"path": [
+						"tasks",
+						"rest",
+						"doregister"
+					]
+				},
+				"description": "Registration of a new user with unique parameters in the system."
+			},
+			"response": [
+				{
+					"name": "doRegister_positive",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "email",
+									"value": "sample.test@mail.ru",
+									"type": "text"
+								},
+								{
+									"key": "name",
+									"value": "UserTester456",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "TestPass789",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://users.bugred.ru/tasks/rest/doregister",
+							"protocol": "http",
+							"host": [
+								"users",
+								"bugred",
+								"ru"
+							],
+							"path": [
+								"tasks",
+								"rest",
+								"doregister"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "nginx/1.10.0"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 24 Jan 2024 08:22:28 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/5.6.14"
+						},
+						{
+							"key": "Expires",
+							"value": "Thu, 19 Nov 1981 08:52:00 GMT"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+						},
+						{
+							"key": "Pragma",
+							"value": "no-cache"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "PHPSESSID=dd7b4b8d17661f2abfe98cb822798ef1; path=/; HttpOnly"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"name\": \"UserTester456\",\n    \"avatar\": \"http://users.bugred.ru//tmp/default_avatar.jpg\",\n    \"password\": \"f8c1ba781b9d903c54e98f3235d5d8d5a47842f4a0323808fcf6ec1e06cf39072a9b9197b7221b70212030fc8e785b473b084352cf111c4952a6faf61d5bedd0\",\n    \"birthday\": 0,\n    \"email\": \"sample.test@mail.ru\",\n    \"gender\": \"\",\n    \"date_start\": 0,\n    \"hobby\": \"\"\n}"
+				}
+			]
+		},
+		{
+			"name": "doRegister_negative",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "sample.test@mail.ru",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "UserTester456",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "TestPass789",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://users.bugred.ru/tasks/rest/doregister",
+					"protocol": "http",
+					"host": [
+						"users",
+						"bugred",
+						"ru"
+					],
+					"path": [
+						"tasks",
+						"rest",
+						"doregister"
+					]
+				},
+				"description": "A negative test.\n\nAn attempt to register an existing user.\n\nExpected result - error (already exists in the database)."
+			},
+			"response": [
+				{
+					"name": "doRegister_negative",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "email",
+									"value": "sample.test@mail.ru",
+									"type": "text"
+								},
+								{
+									"key": "name",
+									"value": "UserTester456",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "TestPass789",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://users.bugred.ru/tasks/rest/doregister",
+							"protocol": "http",
+							"host": [
+								"users",
+								"bugred",
+								"ru"
+							],
+							"path": [
+								"tasks",
+								"rest",
+								"doregister"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "nginx/1.10.0"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 23 Jan 2024 18:18:46 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/5.6.14"
+						},
+						{
+							"key": "Expires",
+							"value": "Thu, 19 Nov 1981 08:52:00 GMT"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+						},
+						{
+							"key": "Pragma",
+							"value": "no-cache"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"type\": \"error\",\n    \"message\": \" email sample.test@mail.ru уже есть в базе\"\n}"
+				}
+			]
+		},
+		{
+			"name": "doRegister_negative_the parameter is not specified",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "UserTester456",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "TestPass789",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://users.bugred.ru/tasks/rest/doregister",
+					"protocol": "http",
+					"host": [
+						"users",
+						"bugred",
+						"ru"
+					],
+					"path": [
+						"tasks",
+						"rest",
+						"doregister"
+					]
+				},
+				"description": "A negative test.\n\nAn attempt to register a user with empty email parameter.\n\nExpected result - error (email value is mandatory)."
+			},
+			"response": [
+				{
+					"name": "doRegister_negative_the parameter is not specified",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "email",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "name",
+									"value": "UserTester456",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "TestPass789",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://users.bugred.ru/tasks/rest/doregister",
+							"protocol": "http",
+							"host": [
+								"users",
+								"bugred",
+								"ru"
+							],
+							"path": [
+								"tasks",
+								"rest",
+								"doregister"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "nginx/1.10.0"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 23 Jan 2024 18:18:50 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/5.6.14"
+						},
+						{
+							"key": "Expires",
+							"value": "Thu, 19 Nov 1981 08:52:00 GMT"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+						},
+						{
+							"key": "Pragma",
+							"value": "no-cache"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"type\": \"error\",\n    \"message\": \" Некоректный  email \"\n}"
+				}
+			]
+		},
+		{
+			"name": "doLogin_positive_check correct login-password",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"// Retrieve the saved \"result\" value from the variable\r",
+							"pm.test(\"Validate response against saved 'result' value\", function() {\r",
+							"    var savedResult = pm.globals.get(\"result\");\r",
+							"    // Alternatively, you can use pm.environment.get(\"result\") if it was stored on an environment\r",
+							"    \r",
+							"    var responseBody = pm.response.json();\r",
+							"    var responseResult = responseBody.result;\r",
+							"    \r",
+							"    pm.expect(responseResult).to.equal(savedResult);\r",
+							"});\r",
+							"\r",
+							"var template = `\r",
+							"<style type=\"text/css\">\r",
+							"    .tftable {font-size:14px;color:#333333;width:100%;border-width: 1px;border-color: #87ceeb;border-collapse: collapse;}\r",
+							"    .tftable th {font-size:18px;background-color:#87ceeb;border-width: 1px;padding: 8px;border-style: solid;border-color: #87ceeb;text-align:left;}\r",
+							"    .tftable tr {background-color:#ffffff;}\r",
+							"    .tftable td {font-size:14px;border-width: 1px;padding: 8px;border-style: solid;border-color: #87ceeb;}\r",
+							"    .tftable tr:hover {background-color:#e0ffff;}\r",
+							"</style>\r",
+							"\r",
+							"<table class=\"tftable\" border=\"1\">\r",
+							"    <tr>\r",
+							"        <th>Result</th>\r",
+							"    </tr>\r",
+							"    <tr>\r",
+							"        <td>{{response.result}}</td>\r",
+							"    </tr>\r",
+							"</table>\r",
+							"`;\r",
+							"\r",
+							"function constructVisualizerPayload() {\r",
+							"    var res = pm.response.json();\r",
+							"    \r",
+							"    var visualizerData = {\r",
+							"        result: res.result\r",
+							"    };\r",
+							"\r",
+							"    return {response: visualizerData};\r",
+							"}\r",
+							"\r",
+							"pm.visualizer.set(template, constructVisualizerPayload());"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "sample.test@mail.ru",
+							"description": "correct value in given login-password pair",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "TestPass789",
+							"description": "correct value in given login-password pair",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://users.bugred.ru/tasks/rest/dologin",
+					"protocol": "http",
+					"host": [
+						"users",
+						"bugred",
+						"ru"
+					],
+					"path": [
+						"tasks",
+						"rest",
+						"dologin"
+					]
+				},
+				"description": "### POST /tasks/rest/dologin\n\nThis endpoint is used to log in a user.\n\n#### Request Body\n\n- email (text, required): The correct value in given login-password pair.\n- password (text, required): The correct value in given login-password pair.\n    \n\n#### Response\n\n- Status: 200\n- Expected result: { \"result\": true }"
+			},
+			"response": [
+				{
+					"name": "doLogin_positive_check correct login-password",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "email",
+									"value": "sample.test@mail.ru",
+									"description": "correct value in given login-password pair",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "TestPass789",
+									"description": "correct value in given login-password pair",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://users.bugred.ru/tasks/rest/dologin",
+							"protocol": "http",
+							"host": [
+								"users",
+								"bugred",
+								"ru"
+							],
+							"path": [
+								"tasks",
+								"rest",
+								"dologin"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "nginx/1.10.0"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 23 Jan 2024 18:18:53 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/5.6.14"
+						},
+						{
+							"key": "Expires",
+							"value": "Thu, 19 Nov 1981 08:52:00 GMT"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+						},
+						{
+							"key": "Pragma",
+							"value": "no-cache"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"result\": true\n}"
+				}
+			]
+		},
+		{
+			"name": "doLogin_negative_check incorrect password",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"var template = `\r",
+							"<style type=\"text/css\">\r",
+							"    .tftable {font-size:14px;color:#333333;width:100%;border-width: 1px;border-color: #87ceeb;border-collapse: collapse;}\r",
+							"    .tftable th {font-size:18px;background-color:#87ceeb;border-width: 1px;padding: 8px;border-style: solid;border-color: #87ceeb;text-align:left;}\r",
+							"    .tftable tr {background-color:#ffffff;}\r",
+							"    .tftable td {font-size:14px;border-width: 1px;padding: 8px;border-style: solid;border-color: #87ceeb;}\r",
+							"    .tftable tr:hover {background-color:#e0ffff;}\r",
+							"</style>\r",
+							"\r",
+							"<table class=\"tftable\" border=\"1\">\r",
+							"    <tr>\r",
+							"        <th>Result</th>\r",
+							"    </tr>\r",
+							"    <tr>\r",
+							"        <td>{{response.result}}</td>\r",
+							"    </tr>\r",
+							"</table>\r",
+							"`;\r",
+							"\r",
+							"function constructVisualizerPayload() {\r",
+							"    return {response: pm.response.json()}\r",
+							"}\r",
+							"\r",
+							"pm.visualizer.set(template, constructVisualizerPayload());"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "sample.test@mail.ru",
+							"description": "Correct login in given login-password pair",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "TestPass",
+							"description": "Incorrect password in given login-password pair",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://users.bugred.ru/tasks/rest/dologin",
+					"protocol": "http",
+					"host": [
+						"users",
+						"bugred",
+						"ru"
+					],
+					"path": [
+						"tasks",
+						"rest",
+						"dologin"
+					]
+				},
+				"description": "### POST /tasks/rest/dologin\n\nThis endpoint is used to log in a user.\n\n#### Request Body\n\n- email (text, Correct login in given login-password pair)\n- password (text, Incorrect password in given login-password pair)\n    \n\n#### Response\n\n- Status: 200\n- Expected result: { \"result\": false }"
+			},
+			"response": [
+				{
+					"name": "doLogin_negative_check incorrect password",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "email",
+									"value": "sample.test@mail.ru",
+									"description": "Correct login in given login-password pair",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "TestPass",
+									"description": "Incorrect password in given login-password pair",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://users.bugred.ru/tasks/rest/dologin",
+							"protocol": "http",
+							"host": [
+								"users",
+								"bugred",
+								"ru"
+							],
+							"path": [
+								"tasks",
+								"rest",
+								"dologin"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "nginx/1.10.0"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 23 Jan 2024 18:18:58 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/5.6.14"
+						},
+						{
+							"key": "Expires",
+							"value": "Thu, 19 Nov 1981 08:52:00 GMT"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+						},
+						{
+							"key": "Pragma",
+							"value": "no-cache"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"result\": false\n}"
+				}
+			]
+		},
+		{
+			"name": "getuser",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "http://users.bugred.ru/tasks/rest/getuser?email=sample.test@mail.ru",
+					"protocol": "http",
+					"host": [
+						"users",
+						"bugred",
+						"ru"
+					],
+					"path": [
+						"tasks",
+						"rest",
+						"getuser"
+					],
+					"query": [
+						{
+							"key": "email",
+							"value": "sample.test@mail.ru",
+							"description": "Specify the email address of the existing user in the database that interests you. Mandatory parameter."
+						}
+					]
+				},
+				"description": "This HTTP GET request is used to retrieve user information based on the provided email address. The request should be made to the endpoint `http://users.bugred.ru/tasks/rest/getuser` with the email address as a query parameter.\n\n### Request\n\n- Method: GET\n- Endpoint: `http://users.bugred.ru/tasks/rest/getuser`\n- Query Parameters:\n    \n    - email: (string) Specify the email address of the existing user in the database that interests you. Mandatory parameter.\n        \n\n### Response\n\nUpon a successful execution of the request, the server will respond with a status code of 200 and a JSON object containing the user information. The response object includes the following fields:\n\n- name: (string) The name of the user.\n- avatar: (string) The URL of the user's avatar image.\n- email: (string) The email address of the user.\n- password: (string) The password of the user (masked for security).\n- birthday: (number) The birthday of the user in Unix timestamp format.\n- gender: (string) The gender of the user.\n- date_start: (number) The start date of the user's account in Unix timestamp format.\n- hobby: (string) The hobby or interest of the user.\n    \n\n#### Example Response\n\n``` json\n{\n    \"name\": \"\",\n    \"avatar\": \"\",\n    \"email\": \"\",\n    \"password\": \"\",\n    \"birthday\": 0,\n    \"gender\": \"\",\n    \"date_start\": 0,\n    \"hobby\": \"\"\n}\n\n ```"
+			},
+			"response": [
+				{
+					"name": "getuser",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"url": {
+							"raw": "http://users.bugred.ru/tasks/rest/getuser?email=sample.test@mail.ru",
+							"protocol": "http",
+							"host": [
+								"users",
+								"bugred",
+								"ru"
+							],
+							"path": [
+								"tasks",
+								"rest",
+								"getuser"
+							],
+							"query": [
+								{
+									"key": "email",
+									"value": "sample.test@mail.ru",
+									"description": "Email of existing user. Mandatory parameter."
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "nginx/1.10.0"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 24 Jan 2024 08:29:23 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/5.6.14"
+						},
+						{
+							"key": "Expires",
+							"value": "Thu, 19 Nov 1981 08:52:00 GMT"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+						},
+						{
+							"key": "Pragma",
+							"value": "no-cache"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"name\": \"UserTester456\",\n    \"avatar\": \"http://users.bugred.ru//tmp/default_avatar.jpg\",\n    \"email\": \"sample.test@mail.ru\",\n    \"password\": \"f8c1ba781b9d903c54e98f3235d5d8d5a47842f4a0323808fcf6ec1e06cf39072a9b9197b7221b70212030fc8e785b473b084352cf111c4952a6faf61d5bedd0\",\n    \"birthday\": 0,\n    \"gender\": \"\",\n    \"date_start\": 0,\n    \"hobby\": \"\"\n}"
+				}
+			]
+		},
+		{
+			"name": "UserOneField_positive",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "field",
+							"value": "hobby",
+							"description": "Specify which field you want to fill in the employee card.",
+							"type": "text"
+						},
+						{
+							"key": "value",
+							"value": "Postman",
+							"description": "Specify the values you want to enter in the field.",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://users.bugred.ru/tasks/rest/useronefield?email=sample.test@mail.ru",
+					"protocol": "http",
+					"host": [
+						"users",
+						"bugred",
+						"ru"
+					],
+					"path": [
+						"tasks",
+						"rest",
+						"useronefield"
+					],
+					"query": [
+						{
+							"key": "email",
+							"value": "sample.test@mail.ru",
+							"description": "Specify the email of the employee for which you want to specify the data in the employee card."
+						}
+					]
+				},
+				"description": "This HTTP POST request is used to specific a new date in the employee card. The request is sent to the endpoint [http://users.bugred.ru/tasks/rest/useronefield](http://users.bugred.ru/tasks/rest/useronefield) with the email parameter specifying the user's email address.\n\n### Request\n\nThe request body should be of form-data type and include two parameters:\n\n1. field: Specify which field you want to fill in the employee card. (text)\n2. value: Specify the values you want to enter in the field. (text)\n    \n\n## Avaiable fields\n\nhobby, name, name1, surname1, fathername1, cat, dog, parrot, cavy, hamster, squirrel, phone, adres, birthday, gender, date_start, inn.\n\n## **The response**\n\nThe response to this request will have a status code of 200 and will include a JSON object with type and message fields. The type and message fields may contain specific information based on the request.\n\nExample response:\n\n```\n{\n    \"type\":\"\",\n    \"message\":\"\"\n}\n\n ```"
+			},
+			"response": [
+				{
+					"name": "UpdateUserOneField_positive",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "field",
+									"value": "hobby",
+									"type": "text"
+								},
+								{
+									"key": "value",
+									"value": "Postman",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://users.bugred.ru/tasks/rest/useronefield?email=sample.test@mail.ru",
+							"protocol": "http",
+							"host": [
+								"users",
+								"bugred",
+								"ru"
+							],
+							"path": [
+								"tasks",
+								"rest",
+								"useronefield"
+							],
+							"query": [
+								{
+									"key": "email",
+									"value": "sample.test@mail.ru"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "nginx/1.10.0"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 24 Jan 2024 08:58:38 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/5.6.14"
+						},
+						{
+							"key": "Expires",
+							"value": "Thu, 19 Nov 1981 08:52:00 GMT"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+						},
+						{
+							"key": "Pragma",
+							"value": "no-cache"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"type\": \"error\",\n    \"message\": \"Поле hobby успешно изменено на Postman у пользователя с email sample.test@mail.ru\"\n}"
+				}
+			]
+		},
+		{
+			"name": "updateUseronefield",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "http://users.bugred.ru/tasks/rest/useronefield?email=sample.test@mail.ru&field=hobby&value=Postman2",
+					"protocol": "http",
+					"host": [
+						"users",
+						"bugred",
+						"ru"
+					],
+					"path": [
+						"tasks",
+						"rest",
+						"useronefield"
+					],
+					"query": [
+						{
+							"key": "email",
+							"value": "sample.test@mail.ru",
+							"description": "Specify the email of the employee whose card you want to make a change."
+						},
+						{
+							"key": "field",
+							"value": "hobby",
+							"description": "Specify the field you want to change,"
+						},
+						{
+							"key": "value",
+							"value": "Postman2",
+							"description": "Specify the new valuein the field."
+						}
+					]
+				},
+				"description": "This endpoint allows updating a specific field for a user identified by their email. The HTTP PUT request is made to [http://users.bugred.ru/tasks/rest/useronefield](http://users.bugred.ru/tasks/rest/useronefield) with query parameters for email, field, and value. The request uses form-data as the body type, but no specific parameters were provided in the last call.\n\n### Request Parameters\n\n- email (query parameter): The email of the user to be updated.\n- field (query parameter): The field to be updated for the user.\n- value (query parameter): The new value to be assigned to the specified field.\n    \n\n### Response\n\nThe response to the request has a status code of 200 and will include a JSON object with type and message fields. The type and message fields may contain specific information based on the request.\n\nExample response:\n\n```\n{\n    \"type\":\"\",\n    \"message\":\"\"\n}\n\n ```"
+			},
+			"response": [
+				{
+					"name": "updateUseronefield",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"url": {
+							"raw": "http://users.bugred.ru/tasks/rest/useronefield?email=sample.test@mail.ru&field=hobby&value=Postman2",
+							"protocol": "http",
+							"host": [
+								"users",
+								"bugred",
+								"ru"
+							],
+							"path": [
+								"tasks",
+								"rest",
+								"useronefield"
+							],
+							"query": [
+								{
+									"key": "email",
+									"value": "sample.test@mail.ru",
+									"description": "Specify the email of the employee whose card you want to make a change."
+								},
+								{
+									"key": "field",
+									"value": "hobby",
+									"description": "Specify the field you want to change,"
+								},
+								{
+									"key": "value",
+									"value": "Postman2",
+									"description": "Specify the new valuein the field."
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "nginx/1.10.0"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 24 Jan 2024 10:51:58 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/5.6.14"
+						},
+						{
+							"key": "Expires",
+							"value": "Thu, 19 Nov 1981 08:52:00 GMT"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+						},
+						{
+							"key": "Pragma",
+							"value": "no-cache"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"type\": \"error\",\n    \"message\": \"Поле hobby успешно изменено на Postman2 у пользователя с email sample.test@mail.ru\"\n}"
+				}
+			]
+		}
+	]
+}
