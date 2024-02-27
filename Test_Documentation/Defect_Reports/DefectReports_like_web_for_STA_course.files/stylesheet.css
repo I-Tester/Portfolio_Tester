@@ -286,18 +286,6 @@ td
 	mso-pattern:black none;
 	white-space:normal;}
 .xl89
-	{mso-style-parent:style0;
-	font-size:16.0pt;
-	font-weight:700;
-	mso-number-format:"\@";
-	text-align:left;
-	vertical-align:top;
-	border-top:none;
-	border-right:none;
-	border-bottom:.5pt solid black;
-	border-left:none;
-	white-space:normal;}
-.xl90
 	{mso-style-parent:style16;
 	color:#0563C1;
 	text-decoration:underline;
@@ -305,9 +293,21 @@ td
 	mso-number-format:"\@";
 	vertical-align:top;
 	white-space:normal;}
-.xl91
+.xl90
 	{mso-style-parent:style0;
 	mso-number-format:"\@";
+	vertical-align:top;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid black;
+	border-left:none;
+	white-space:normal;}
+.xl91
+	{mso-style-parent:style0;
+	font-size:16.0pt;
+	font-weight:700;
+	mso-number-format:"\@";
+	text-align:left;
 	vertical-align:top;
 	border-top:none;
 	border-right:none;
